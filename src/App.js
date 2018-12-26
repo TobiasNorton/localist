@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 import './App.css'
 import HomePage from './HomePage'
-import UnmatchedProfile from './UnmatchedProfile'
+import MatchedProfile from './MatchedProfile'
+import MyProfile from './MyProfile'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <HomePage />
-        {/* <UnmatchedProfile /> */}
+        {/* <HomePage /> */}
+        <MatchedProfile />
+        {/* <MyProfile/> */}
       </div>
     )
   }

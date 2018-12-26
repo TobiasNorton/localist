@@ -3,25 +3,25 @@ import React, { Component } from 'react'
 class HomePage extends Component {
   render() {
     return (
-      <body>
-        <nav class="nav-bar">
-          <p class="logo">Localist</p>
-          <div class="links">
+      <body className="body-background">
+        <nav className="nav-bar">
+          <p className="logo">Localist</p>
+          <div className="links">
             <a href="#">Join</a> <a href="#">Log In</a> <a href="#" />
           </div>
         </nav>
-        <section class="main">
-          <h3>
+        <section className="main">
+          <h3 className="main-caption">
             Meet With Locals,
             <br />
             Anywhere in the World.
           </h3>
           <button>Join the Family</button>
         </section>
-        <section class="what-is">
+        <section className="what-is">
           <h1>What is Localist?</h1>
-          <div class="box-container">
-            <div class="box">
+          <div className="box-container">
+            <div className="box">
               <p>Cultural Tourism</p>
               <p>
                 Localist provides a unique platform to meet with locals anywhere on the planet so
@@ -30,7 +30,7 @@ class HomePage extends Component {
                 that only the locals would know about.
               </p>
             </div>
-            <div class="box">
+            <div className="box">
               <p>Locals Can Hang Out With Travelers</p>
               <p>
                 Show off your town! Remember, those from other countries don't have the same context
@@ -40,7 +40,7 @@ class HomePage extends Component {
                 Meet up for lunch, a beer or for a 3-day hike. It's up to you.
               </p>
             </div>
-            <div class="box">
+            <div className="box">
               <p>What Localist is Not</p>
               <p>
                 Localist is not a dating website or a platform for couch sharing, but hey, it's a
@@ -50,16 +50,16 @@ class HomePage extends Component {
             </div>
           </div>
         </section>
-        <section class="how-it-works">
+        <section className="how-it-works">
           <h1>How Does It Work?</h1>
-          <div class="box-container">
-            <div class="box">
+          <div className="box-container">
+            <div className="box">
               <p />
             </div>
-            <div class="box">
+            <div className="box">
               <p />
             </div>
-            <div class="box">
+            <div className="box">
               <p />
             </div>
           </div>

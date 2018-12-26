@@ -7,25 +7,28 @@ class MatchedProfile extends Component {
         <nav className="nav-bar">
           <p className="logo">Localist</p>
           <div className="links">
-            <a href="#">Join</a> <a href="#">Browse</a> <a href="#">My Profile</a>{' '}
+            <a href="#">Requests</a>
+            <a href="#">Browse</a> <a href="#">My Profile</a> <a href="#">Join</a>
             <a href="#">Log In</a> <a href="#" />
           </div>
         </nav>
+
         <section className="their-profile">
           <div className="left">
             <div className="category">
               <h3 className="profile-name">Budsarin Hiranprueck</h3>
               <img src="./BudsarinCropped.jpg" className="profile-pic" alt="Budsarin" />
-
               <p className="from">Chiang Mai, Thailand</p>
             </div>
+
             <div className="category">
               <p className="header">Languages I Speak:</p>
-              <p>Thai, English, Ngaw, some Spanish</p>
+              <p className="body">Thai, English, Ngaw, some Spanish</p>
             </div>
+
             <div className="category">
               <p className="header">Contact Me:</p>
-              <ul>
+              <ul className="body">
                 <li>WhatsApp: +1 5234 3486 324</li>
                 <li>Email: budsar1234@something.com</li>
                 <li>Facebook Messenger: Budsarin Hueranprueck</li>
@@ -33,10 +36,11 @@ class MatchedProfile extends Component {
               </ul>
             </div>
           </div>
+
           <div className="right">
             <div className="category">
               <p className="header">About Me:</p>
-              <p>
+              <p className="body">
                 Hi, I'm Budsarin! I've lived in Chiang Mai for 10 years. I like to bacon ipsum dolor
                 amet spare ribs landjaeger filet mignon, frankfurter porchetta salami tenderloin.
                 Hamburger porchetta frankfurter meatball picanha. Kielbasa pork corned beef salami
@@ -47,7 +51,7 @@ class MatchedProfile extends Component {
             </div>
             <div className="category">
               <p className="header">Why I Joined Localist:</p>
-              <p>
+              <p className="body">
                 Landjaeger fatback kevin shankle, porchetta chicken jowl bresaola sirloin cupim
                 flank kielbasa beef doner. Kevin pastrami porchetta meatball swine brisket short
                 loin chuck. Chuck prosciutto ball tip sausage picanha tongue. Shoulder jowl buffalo

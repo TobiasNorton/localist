@@ -49,7 +49,7 @@ code {
 .nav-bar a {
   text-decoration: none;
   color: white;
-  padding: 0 1rem 0 1rem;
+  margin: 0 1rem 0 1rem;
 }
 
 .logo {
@@ -132,6 +132,7 @@ button {
 /* ---------- Unmatched Profile -------- */
 
 .their-profile {
+  padding-top: 0.5rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -144,6 +145,19 @@ button {
   flex-direction: column;
   align-items: center;
   max-width: 50rem;
+}
+
+.profile-name {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin: 1rem;
+}
+
+.profile-pic {
+  width: 24rem;
+  border-radius: 10px;
+  display: block;
 }
 
 .their-profile .right {
@@ -161,26 +175,35 @@ button {
   width: 50rem;
   margin: 0.5rem;
   width: 30rem;
-  /* padding: 1rem; */
+  border-radius: 5px;
 }
+
 .category .header {
   font-size: 1.2rem;
+  padding: 0.5rem 0 0 0;
 }
 
-.profile-pic {
-  width: 24rem;
-  border-radius: 10px;
+.category .body {
+  padding-bottom: 0.7rem;
 }
 
-.profile-name {
-  font-size: 2rem;
-  color: black;
-  text-align: center;
-  /* margin: 1rem; */
+.their-profile p {
+  margin: 0.5rem;
+  padding: 0 3rem 0 3rem;
 }
 
-.their-profile p,
 .their-profile ul {
   margin: 0.5rem;
   padding: 0 3rem 0 3rem;
 }
+
+.from {
+  padding: 2rem;
+  margin: 5px;
+}
+
+.their-profile button {
+  margin: 1rem;
+}
+
+/* ------------- MyProfile --------------- */

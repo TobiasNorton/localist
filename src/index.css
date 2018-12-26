@@ -122,9 +122,23 @@ button {
 
 .their-profile {
   display: flex;
+  justify-content: center;
+  /* background-color: white; */
+}
+
+.their-profile .left {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: white; */
+  background-color: white;
+  max-width: 50rem;
+}
+
+.their-profile .right {
+}
+
+.category {
+  font-size: 1.2rem;
 }
 
 .profile-pic {
@@ -132,7 +146,7 @@ button {
 }
 
 .profile-name {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: black;
   text-align: center;
   margin: 1rem;
@@ -140,4 +154,5 @@ button {
 
 .their-profile p {
   margin: 0.5rem;
+  padding: 0 3rem 0 3rem;
 }

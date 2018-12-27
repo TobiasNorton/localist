@@ -9,10 +9,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <HomePage /> */}
+        <HomePage />
         {/* <MatchedProfile /> */}
         {/* <MyProfile /> */}
-        <RequestProfile />
+        {/* <RequestProfile /> */}
       </div>
     )
   }

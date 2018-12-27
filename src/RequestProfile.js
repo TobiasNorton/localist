@@ -33,7 +33,9 @@ class RequestProfile extends Component {
 
             <div className="category">
               <p className="header">Contact Me:</p>
-              <p className="body">You must link with Michael to see his contact information.</p>
+              <p className="body">
+                You must be linked with Michael to see his contact information.
+              </p>
               {/* <ul className="body">
                 <li>WhatsApp: +1 5234 3486 324</li>
                 <li>Email: mkelly@something.com</li>
@@ -47,12 +49,11 @@ class RequestProfile extends Component {
             <div className="category">
               <p className="header">About Me:</p>
               <p className="body">
-                Hi, I'm Budsarin! I've lived in Chiang Mai for 10 years. I like to bacon ipsum dolor
-                amet spare ribs landjaeger filet mignon, frankfurter porchetta salami tenderloin.
-                Hamburger porchetta frankfurter meatball picanha. Kielbasa pork corned beef salami
-                pork belly cow ball tip pork loin doner pastrami. Drumstick leberkas ribeye brisket.
-                Leberkas spare ribs landjaeger tail picanha salami. Tenderloin pancetta shankle
-                kevin, pork loin pastrami swine tail.
+                I am a lover of the outdoors, beer and good food. I love to travel and I porchetta
+                salami tenderloin. Hamburger porchetta frankfurter meatball picanha. Kielbasa pork
+                corned beef salami pork belly cow ball tip pork loin doner pastrami. Drumstick
+                leberkas ribeye brisket. Leberkas spare ribs landjaeger tail picanha salami.
+                Tenderloin pancetta shankle kevin, pork loin pastrami swine tail.
               </p>
             </div>
             <div className="category">

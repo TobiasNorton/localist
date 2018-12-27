@@ -83,7 +83,7 @@ class Browse extends Component {
               <img src="./BudsarinCropped.jpg" className="mini-pic" />
             </section>
             <section>
-              <p>Budsarin HiranPrueck</p>
+              <p>Budsarin Hiranprueck</p>
               <p>Chiang Mai, Thailand</p>
               <p>Available: June 18 - July 8, 2019</p>
               <button>View Profile</button>

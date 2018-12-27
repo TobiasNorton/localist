@@ -23,12 +23,13 @@ class HomePage extends Component {
           <h1>What is Localist?</h1>
           <div className="box-container">
             <div className="box">
-              <p className="header">Cultural Tourism</p>
+              <p className="header">Experience Culture</p>
               <p className="body">
                 Localist provides a unique platform to meet with locals anywhere on the planet so
-                that travelers can get a richer experience and see things up close and personal.
-                Find the best street food, the local music scene, the best views, the hidden gems
-                that only the locals would know about.
+                that travelers can get a richer experience and see their travel destinations up
+                close and personal. Find the best street food, the local music scene, the best
+                views, the hidden gems that only the locals would know about. Localist seeks to help
+                you get a richer cultural experience.
               </p>
             </div>
             <div className="box">
@@ -57,16 +58,29 @@ class HomePage extends Component {
             <div className="box">
               <p className="header">Create an Account</p>
               <p className="body">
-                You will be prompted to create an account with either Facebook or Google. From there
-                you will be prompted to create a profile. This is your chance
+                You will be prompted to register with Localist through either Facebook or Google for
+                authentication purposes. From there you will create a profile. After filling out the
+                necessary information, you can add dates and destinations of trips you'll be taking,
+                and Localist will take it from there.
               </p>
             </div>
             <div className="box">
               <p className="header">Browse Locals</p>
+              <p className="body">
+                Based on your travel information, you will be provided with a list of locals that
+                live in the cities you will be traveling to. You may view their profiles or request
+                to link with them. You may also receive requests from incoming travelers that are
+                planning to visit your town, at which point you may view their profile. You may
+                accept or decline any link request.
+              </p>
             </div>
             <div className="box">
               <p className="header">Set Up a Time and Place to Meet</p>
-              <p className="body">Yada yada yadadaaa</p>
+              <p className="body">
+                Once you are linked with someone, your contact information will become visible to
+                them and theirs will be visible to you. From here it's up to you two to decide how
+                and when to meet and what activities are in store!
+              </p>
             </div>
           </div>
         </section>

@@ -16,24 +16,25 @@ class RequestProfile extends Component {
         <section className="their-profile">
           <div className="left">
             <div className="category">
-              <h3 className="profile-name">Budsarin Hiranprueck</h3>
-              <img src="./BudsarinCropped.jpg" className="profile-pic" alt="Budsarin" />
-              <p className="from">Chiang Mai, Thailand</p>
+              <h3 className="profile-name">Michael Kelly</h3>
+              <img src="./MichaelKelly.jpg" className="profile-pic" alt="Michael Kelly" />
+              <p className="from">Galway, Ireland</p>
             </div>
 
             <div className="category">
               <p className="header">Languages I Speak:</p>
-              <p className="body">Thai, English, Ngaw, some Spanish</p>
+              <p className="body">English</p>
             </div>
 
             <div className="category">
               <p className="header">Contact Me:</p>
-              <ul className="body">
+              <p className="body">You must link with Michael to see his contact information.</p>
+              {/* <ul className="body">
                 <li>WhatsApp: +1 5234 3486 324</li>
-                <li>Email: budsar1234@something.com</li>
-                <li>Facebook Messenger: Budsarin Hueranprueck</li>
-                <li>Instagram: @b.huer88</li>
-              </ul>
+                <li>Email: mkelly@something.com</li>
+                <li>Facebook Messenger: Michael Kelly</li>
+                <li>Instagram: @mike.like.mike</li>
+              </ul> */}
             </div>
           </div>
 
@@ -59,12 +60,15 @@ class RequestProfile extends Component {
               </p>
             </div>
             <div className="category">
-              <p className="header">Available:</p>
-              <p className="body">June 18 - July 8, 2019</p>
+              <p className="header">Coming to St. Petersburg, FL:</p>
+              <p className="body">March 28 - April 6, 2019</p>
             </div>
 
-            <p className="link-status">You are linked with Budsarin Hiranprueck</p>
-            <button>Unlink</button>
+            <p className="link-status">Michael Kelly has requested to link with you.</p>
+            <div className="request-buttons">
+              <button>Accept</button>
+              <button>Decline</button>
+            </div>
           </div>
         </section>
         <footer />

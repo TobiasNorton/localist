@@ -325,3 +325,33 @@ footer {
   margin-bottom: 1rem;
   width: 13.5rem;
 }
+
+/* --------------- Browse Locals --------------*/
+
+.browse-background {
+  background-color: hsla(127, 50%, 80%, 1);
+}
+
+.local {
+  display: flex;
+  background-color: white;
+  margin: 0.3rem;
+  width: 30rem;
+  border-radius: 5px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.local p {
+  margin: 0 0 0.5rem 1rem;
+  padding: 0;
+}
+
+.link-status {
+  font-size: 1.2rem;
+}
+
+.local button {
+  margin: 0.2rem 0 0 1rem;
+  width: 9rem;
+}

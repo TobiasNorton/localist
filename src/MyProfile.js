@@ -72,20 +72,89 @@ class MyProfile extends Component {
               </ul>
             </div>
             <p>My Links</p>
+
             <div className="link">
-              <img src="" className="mini-pic" alt="Profile Picture" />
+              <section>
+                <img src="./JeanSebastian.jpeg" className="mini-pic" />
+              </section>
+              <section>
+                <p>Jean-Sebastian Sirois</p>
+                <p>Paris, France</p>
+                <p>Available: June 18 - July 8, 2019</p>
+                <button>View Profile</button>
+              </section>
             </div>
+
             <div className="link">
-              <img src="" className="mini-pic" alt="Profile Picture" />
+              <section>
+                <img src="./Margaux.jpg" className="mini-pic" />
+              </section>
+              <section>
+                <p>Margaux Anati</p>
+                <p>Place, Somewhere</p>
+                <p>Available Dates Here</p>
+                <button>View Profile</button>
+              </section>
             </div>
+
             <div className="link">
-              <img src="" className="mini-pic" alt="Profile Picture" />
+              <section>
+                <img src="./Bruno.jpg" className="mini-pic" />
+              </section>
+              <section>
+                <p>Name Anamegoeshere</p>
+                <p>Place, Somewhere</p>
+                <p>Available Dates Here</p>
+                <button>View Profile</button>
+              </section>
             </div>
+
             <div className="link">
-              <img src="" className="mini-pic" alt="Profile Picture" />
+              <section>
+                <img src="./Sarah.jpg" className="mini-pic" />
+              </section>
+              <section>
+                <p>Name Anamegoeshere</p>
+                <p>Place, Somewhere</p>
+                <p>Available Dates Here</p>
+                <button>View Profile</button>
+              </section>
             </div>
+
             <div className="link">
-              <img src="" className="mini-pic" alt="Profile Picture" />
+              <section>
+                <img src="./Duanphen.jpeg" className="mini-pic" />
+              </section>
+              <section>
+                <p>Name Anamegoeshere</p>
+                <p>Place, Somewhere</p>
+                <p>Available Dates Here</p>
+                <button>View Profile</button>
+              </section>
+            </div>
+
+            <div className="link">
+              <section>
+                <img src="./BudsarinCropped.jpg" className="mini-pic" />
+              </section>
+              <section>
+                <p>Name Anamegoeshere</p>
+                <p>Place, Somewhere</p>
+                <p>Available Dates Here</p>
+                <button>View Profile</button>
+              </section>
+            </div>
+
+            <div className="link">
+              <section>
+                <img src="./Naowarat.jpg" className="mini-pic" />
+              </section>
+              <section>
+                <p>Name Anamegoeshere</p>
+                <p>Place, Somewhere</p>
+                <p>Available Dates Here</p>
+                <button>View Profile</button>
+              </section>
             </div>
           </div>
         </section>

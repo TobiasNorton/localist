@@ -11,9 +11,9 @@ class App extends Component {
     return (
       <div>
         {/* <HomePage /> */}
-        <Browse />
+        {/* <Browse /> */}
         {/* <MatchedProfile /> */}
-        {/* <MyProfile /> */}
+        <MyProfile />
         {/* <RequestProfile /> */}
       </div>
     )

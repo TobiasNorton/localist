@@ -239,11 +239,6 @@ button {
   font-family: 'Lato', sans-serif;
 }
 
-.from {
-  padding: 2rem;
-  margin: 5px;
-}
-
 .their-profile button {
   margin: 0.5rem;
 }
@@ -274,8 +269,12 @@ button {
 }
 
 .my-profile p {
-  margin: 0.5rem;
   padding: 0 3rem 0 3rem;
+}
+
+p.from {
+  padding: 1rem;
+  margin: 5px;
 }
 
 .my-profile ul {
@@ -330,6 +329,10 @@ footer {
 
 .browse-background {
   background-color: hsla(127, 50%, 80%, 1);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .local {

@@ -13,7 +13,8 @@ body {
   src: url('./goodvibes.ttf');
 }
 
-.body-background {
+button:hover {
+  cursor: pointer;
 }
 
 code {
@@ -136,6 +137,7 @@ button {
 
 .box-container {
   display: flex;
+  flex-wrap: flex;
   min-height: 30rem;
   padding: 0.6rem;
   justify-content: center;
@@ -143,6 +145,7 @@ button {
 
 .box {
   width: 20rem;
+  min-width: 220px;
   background-color: hsla(127, 50%, 60%, 1);
   margin: 0.6rem;
 }

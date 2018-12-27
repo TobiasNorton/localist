@@ -19,6 +19,11 @@ class RequestProfile extends Component {
               <h3 className="profile-name">Michael Kelly</h3>
               <img src="./MichaelKelly.jpg" className="profile-pic" alt="Michael Kelly" />
               <p className="from">Galway, Ireland</p>
+              <p className="link-status">Michael Kelly would like to link with you.</p>
+              <div className="request-buttons">
+                <button>Accept</button>
+                <button>Decline</button>
+              </div>
             </div>
 
             <div className="category">
@@ -62,12 +67,6 @@ class RequestProfile extends Component {
             <div className="category">
               <p className="header">Coming to St. Petersburg, FL:</p>
               <p className="body">March 28 - April 6, 2019</p>
-            </div>
-
-            <p className="link-status">Michael Kelly has requested to link with you.</p>
-            <div className="request-buttons">
-              <button>Accept</button>
-              <button>Decline</button>
             </div>
           </div>
         </section>

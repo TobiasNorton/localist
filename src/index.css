@@ -277,3 +277,10 @@ footer {
   height: 3rem;
   background-color: hsla(127, 50%, 80%, 1);
 }
+
+/* -------------- RequestProfile ---------- */
+
+.request-buttons button {
+  margin-bottom: 1rem;
+  width: 13.5rem;
+}

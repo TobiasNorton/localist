@@ -5,16 +5,18 @@ import MatchedProfile from './MatchedProfile'
 import MyProfile from './MyProfile'
 import RequestProfile from './RequestProfile'
 import Browse from './Browse'
+import CreateProfile from './CreateProfile'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <HomePage />
-        <Browse />
+        {/* <HomePage /> */}
+        <CreateProfile />
+        {/* <Browse />
         <MatchedProfile />
         <MyProfile />
-        <RequestProfile />
+        <RequestProfile /> */}
       </div>
     )
   }

@@ -11,11 +11,12 @@ class HomePage extends Component {
           </div>
         </nav>
         <section className="main">
-          <h3 className="main-caption">
-            Meet With Locals,
+          <p className="welcome">
+            Welcome to
             <br />
-            Anywhere in the World.
-          </h3>
+            <span>Localist</span>
+          </p>
+          <h3 className="main-caption">Meet With Locals, Anywhere in the World.</h3>
           <button>Join the Family</button>
         </section>
         <section className="what-is">
@@ -45,7 +46,7 @@ class HomePage extends Component {
               <p>
                 Localist is not a dating website or a platform for couch sharing, but hey, it's a
                 free world! If you should choose to use it for such purposes, more power to you. We
-                just want Localist on both sides to have the best cultural experience they can.
+                just want Localists on both sides to have the best cultural experience they can.
               </p>
             </div>
           </div>
@@ -54,13 +55,17 @@ class HomePage extends Component {
           <h1>How Does It Work?</h1>
           <div className="box-container">
             <div className="box">
-              <p />
+              <p>Create an Account</p>
+              <p>
+                You will be prompted to create an account with either Facebook or Google. From there
+                you will be prompted to create a profile. This is your chance
+              </p>
             </div>
             <div className="box">
-              <p />
+              <p>Browse Locals</p>
             </div>
             <div className="box">
-              <p />
+              <p>Set Up a Time and Place to Meet</p>
             </div>
           </div>
         </section>

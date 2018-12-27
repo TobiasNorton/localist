@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <div>
         {/* <HomePage /> */}
-        {/* <MatchedProfile /> */}
-        <MyProfile />
+        <MatchedProfile />
+        {/* <MyProfile /> */}
       </div>
     )
   }

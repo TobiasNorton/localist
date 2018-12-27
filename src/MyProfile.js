@@ -71,7 +71,8 @@ class MyProfile extends Component {
                 <li>June 18 - July 8, 2019</li>
               </ul>
             </div>
-            <p>My Links</p>
+
+            <p className="my-links">My Links</p>
 
             <div className="link">
               <section>
@@ -91,8 +92,8 @@ class MyProfile extends Component {
               </section>
               <section>
                 <p>Margaux Anati</p>
-                <p>Place, Somewhere</p>
-                <p>Available Dates Here</p>
+                <p>Paris, France</p>
+                <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
               </section>
             </div>
@@ -102,9 +103,9 @@ class MyProfile extends Component {
                 <img src="./Bruno.jpg" className="mini-pic" />
               </section>
               <section>
-                <p>Name Anamegoeshere</p>
-                <p>Place, Somewhere</p>
-                <p>Available Dates Here</p>
+                <p>Bruno Chastain</p>
+                <p>Paris, France</p>
+                <p>Available: June 28 - July 4, 2019</p>
                 <button>View Profile</button>
               </section>
             </div>
@@ -114,9 +115,9 @@ class MyProfile extends Component {
                 <img src="./Sarah.jpg" className="mini-pic" />
               </section>
               <section>
-                <p>Name Anamegoeshere</p>
-                <p>Place, Somewhere</p>
-                <p>Available Dates Here</p>
+                <p>Sarah Richelieu</p>
+                <p>Paris, France</p>
+                <p>Available: June 18 - July 2, 2019</p>
                 <button>View Profile</button>
               </section>
             </div>
@@ -126,9 +127,9 @@ class MyProfile extends Component {
                 <img src="./Duanphen.jpeg" className="mini-pic" />
               </section>
               <section>
-                <p>Name Anamegoeshere</p>
-                <p>Place, Somewhere</p>
-                <p>Available Dates Here</p>
+                <p>Duanphen Kaekwoon</p>
+                <p>Chiang Mai, Thailand</p>
+                <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
               </section>
             </div>
@@ -138,9 +139,9 @@ class MyProfile extends Component {
                 <img src="./BudsarinCropped.jpg" className="mini-pic" />
               </section>
               <section>
-                <p>Name Anamegoeshere</p>
-                <p>Place, Somewhere</p>
-                <p>Available Dates Here</p>
+                <p>Budsarin HiranPrueck</p>
+                <p>Chiang Mai, Thailand</p>
+                <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
               </section>
             </div>
@@ -150,12 +151,13 @@ class MyProfile extends Component {
                 <img src="./Naowarat.jpg" className="mini-pic" />
               </section>
               <section>
-                <p>Name Anamegoeshere</p>
-                <p>Place, Somewhere</p>
-                <p>Available Dates Here</p>
+                <p>Naowarat Angsakul</p>
+                <p>Chiang Mai, Thailand</p>
+                <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
               </section>
             </div>
+            <footer />
           </div>
         </section>
       </>

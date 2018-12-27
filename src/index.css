@@ -185,6 +185,7 @@ button {
 
 .category .body {
   padding-bottom: 0.7rem;
+  line-height: 1.3rem;
 }
 
 .their-profile p {
@@ -203,7 +204,7 @@ button {
 }
 
 .their-profile button {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 /* ------------- MyProfile --------------- */
@@ -241,8 +242,8 @@ button {
   padding: 0 3rem 0 3rem;
 }
 
-.my-profile button {
-  margin: 1rem;
+.my-links {
+  font-size: 1.2rem;
 }
 
 .link {
@@ -264,6 +265,15 @@ button {
   padding: 0;
 }
 
+.link-status {
+  font-size: 1.2rem;
+}
+
 .link button {
-  /* margin-left: 1rem; */
+  margin: 0.2rem 0 0 1rem;
+}
+
+footer {
+  height: 3rem;
+  background-color: hsla(127, 50%, 80%, 1);
 }

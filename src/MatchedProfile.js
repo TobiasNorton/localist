@@ -58,10 +58,16 @@ class MatchedProfile extends Component {
                 pork chop doner leberkas corned beef. Beef ribs shoulder venison shankle ham hock.
               </p>
             </div>
-            <p>You are linked with Budsarin Hiranprueck</p>
+            <div className="category">
+              <p className="header">Available:</p>
+              <p className="body">June 18 - July 8, 2019</p>
+            </div>
+
+            <p className="link-status">You are linked with Budsarin Hiranprueck</p>
             <button>Unlink</button>
           </div>
         </section>
+        <footer />
       </>
     )
   }

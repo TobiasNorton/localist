@@ -27,7 +27,7 @@ code {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 85vh;
+  height: 84vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,9 +93,8 @@ h1 {
   font-size: 40px;
   /* font-size: 60px; */
   text-align: center;
-  margin-top: 0;
+  margin: 0 2.5rem 1rem 2.5rem;
   /* margin-top: 15rem; */
-  margin-bottom: 1.5rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
@@ -115,7 +114,6 @@ button {
   border-radius: 5px;
   border: none;
   font-family: 'Lato', sans-serif;
-  /* border: 2px solid hsl(185, 0%, 80%); */
 }
 
 .what-is {

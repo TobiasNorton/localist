@@ -447,5 +447,8 @@ input.big-field {
 }
 
 input {
-  border: 2px solid hsla(185, 0%, 90%, 1);
+  border: 2px solid hsla(185, 0%, 85%, 1);
+}
+
+::placeholder {
 }

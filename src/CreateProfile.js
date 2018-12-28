@@ -13,7 +13,7 @@ class CreateProfile extends Component {
           </div>
         </nav>
         <div className="create-profile">
-          <section className="form-body">
+          <form className="form-body">
             <p>Name</p>
             <input type="text" placeholder="Hello?" />
             <p>Age</p>
@@ -90,7 +90,9 @@ class CreateProfile extends Component {
               <label>From</label>
               <input type="date" /> <label>until</label> <input type="date" />
             </div>
-          </section>
+            <p>Upload a Photo of Yourself</p>
+            <input type="text" placeholder="picture.jpg" />
+          </form>
         </div>
         <footer />
       </div>

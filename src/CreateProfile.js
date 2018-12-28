@@ -12,86 +12,109 @@ class CreateProfile extends Component {
             <a href="#">Sign Out</a> <a href="#" />
           </div>
         </nav>
+
         <div className="create-profile">
           <form className="form-body">
-            <p>Name</p>
-            <input type="text" placeholder="Your Name Here" />
-            <p>Age</p>
-            <input type="text" maxLength="3" placeholder="Your Age Here" />
-            <p>Gender*</p>
+            <div className="input">
+              <p>Name</p>
+              <input type="text" placeholder="Your Name Here" />
+            </div>
+            <div className="input">
+              <p>Name</p>
+              <input type="text" placeholder="Your Name Here" />
+            </div>
+            <div className="input">
+              <p>Age</p>
+              <input type="text" maxLength="3" placeholder="Your Age Here" />
+            </div>
+            <div className="input">
+              <p>Gender*</p>
+              <section className="gender">
+                <div>
+                  <input type="radio" id="male" name="gender" value="male" />
+                  <label htmlFor="male">Male</label>
+                </div>
+                <div>
+                  <input type="radio" id="female" name="gender" value="female" />
+                  <label htmlFor="female">Female</label>
+                </div>
+                <div>
+                  <input type="radio" id="other" name="gender" value="other" />
+                  <label htmlFor="other">Other/Prefer not to answer</label>
+                </div>
+              </section>
+            </div>
+            <div className="input">
+              <p>
+                Location <br /> Where do you live?
+              </p>
+              <input type="text" placeholder="My Hometown, Anywhere" />
+            </div>
+            <div className="input">
+              <p>
+                Tell us about yourself! <br />
+                Remember: The more details you provide, the more likely you are to link with others.
+              </p>
+              <input
+                className="big-field"
+                type="text"
+                placeholder="Interests, hobbies, background, etc."
+              />
+            </div>
+            <div className="input">
+              <p>Why did you decide to join Localist?</p>
+              <input
+                className="big-field"
+                type="text"
+                placeholder="Hidden food gems, good conversation"
+              />
+            </div>
+            <div className="input">
+              <p>List your upcoming trips:</p>
 
-            <section className="gender">
-              <div>
-                <input type="radio" id="male" name="gender" value="male" />
-                <label htmlFor="male">Male</label>
+              <div className="input">
+                <p>City:</p>
+                <input type="text" placeholder="City, Country" />
+                <p>Travel Dates:</p>
+                <div className="travel-dates">
+                  <label>From</label>
+                  <input type="date" /> <label>until</label> <input type="date" />
+                </div>
               </div>
 
-              <div>
-                <input type="radio" id="female" name="gender" value="female" />
-                <label htmlFor="female">Female</label>
+              <div className="input">
+                <p>City:</p>
+                <input type="text" placeholder="City, Country" />
+                <p>Travel Dates:</p>
+                <div className="travel-dates">
+                  <label>From</label>
+                  <input type="date" /> <label>until</label> <input type="date" />
+                </div>
               </div>
 
-              <div>
-                <input type="radio" id="other" name="gender" value="other" />
-                <label htmlFor="other">Other/Prefer not to answer</label>
+              <div className="input">
+                <p>City:</p>
+                <input type="text" placeholder="City, Country" />
+                <p>Travel Dates:</p>
+                <div className="travel-dates">
+                  <label>From</label>
+                  <input type="date" /> <label>until</label> <input type="date" />
+                </div>
               </div>
-            </section>
 
-            <p>
-              Location <br /> Where do you live?
-            </p>
-            <input type="text" placeholder="My Hometown, Anywhere" />
+              <div className="input">
+                <p>City:</p>
+                <input type="text" placeholder="City, Country" />
+                <p>Travel Dates:</p>
+                <div className="travel-dates">
+                  <label>From</label>
+                  <input type="date" /> <label>until</label> <input type="date" />
+                </div>
+              </div>
 
-            <p>
-              Tell us about yourself! <br />
-              Remember: The more details you provide, the more likely you are to link with others.
-            </p>
-            <input
-              className="big-field"
-              type="text"
-              placeholder="Interests, hobbies, background, etc."
-            />
-
-            <p>Why did you decide to join Localist?</p>
-            <input
-              className="big-field"
-              type="text"
-              placeholder="Hidden food gems, good conversation"
-            />
-            <p>List your upcoming trips:</p>
-            <p>City:</p>
-            <input type="text" placeholder="City, Country" />
-            <p>Travel Dates:</p>
-            <div className="travel-dates">
-              <label>From</label>
-              <input type="date" /> <label>until</label> <input type="date" />
+              <p>Upload a Photo of Yourself</p>
+              <input type="text" placeholder="picture.jpg" />
             </div>
-
-            <p>City:</p>
-            <input type="text" placeholder="City, Country" />
-            <p>Travel Dates:</p>
-            <div className="travel-dates">
-              <label>From</label>
-              <input type="date" /> <label>until</label> <input type="date" />
-            </div>
-
-            <p>City:</p>
-            <input type="text" placeholder="City, Country" />
-            <p>Travel Dates:</p>
-            <div className="travel-dates">
-              <label>From</label>
-              <input type="date" /> <label>until</label> <input type="date" />
-            </div>
-
-            <p>City:</p>
-            <input type="text" placeholder="City, Country" />
-            <p>Travel Dates:</p>
-            <div className="travel-dates">
-              <label>From</label>
-              <input type="date" /> <label>until</label> <input type="date" />
-            </div>
-            <p>Upload a Photo of Yourself</p>
-            <input type="text" placeholder="picture.jpg" />
           </form>
         </div>
         <footer />

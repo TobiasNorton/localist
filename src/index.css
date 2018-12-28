@@ -406,6 +406,10 @@ footer {
   margin: 1.5rem 0 0.5rem 0;
 }
 
+.input {
+  margin-bottom: 2rem;
+}
+
 input[type='text'] {
   height: 1.7rem;
   width: 14rem;
@@ -438,10 +442,6 @@ input.big-field {
   flex-wrap: wrap;
   align-items: center;
 }
-
-/* .travel-dates label {
-  margin: ;
-} */
 
 .travel-dates input {
   margin: 0 0.4rem 0 0.4rem;

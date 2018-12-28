@@ -331,7 +331,7 @@ p.from {
 }
 
 footer {
-  height: 3rem;
+  height: 6rem;
   background-color: hsla(127, 50%, 80%, 1);
 }
 
@@ -407,7 +407,7 @@ footer {
 }
 
 input[type='text'] {
-  height: 1.5rem;
+  height: 1.7rem;
   width: 14rem;
   font-size: 1rem;
 }
@@ -422,7 +422,7 @@ input[type='radio'] {
 }
 
 input[type='date'] {
-  height: 1.5rem;
+  height: 1.7rem;
   width: 14rem;
   font-size: 1rem;
 }
@@ -443,5 +443,9 @@ input.big-field {
 } */
 
 .travel-dates input {
-  margin: 0 1rem 0 0.4rem;
+  margin: 0 0.4rem 0 0.4rem;
+}
+
+input {
+  border: 2px solid hsla(185, 0%, 90%, 1);
 }

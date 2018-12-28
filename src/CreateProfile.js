@@ -92,6 +92,7 @@ class CreateProfile extends Component {
             </div>
           </section>
         </div>
+        <footer />
       </div>
     )
   }

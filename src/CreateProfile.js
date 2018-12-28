@@ -58,9 +58,38 @@ class CreateProfile extends Component {
               type="text"
               placeholder="Hidden food gems, good conversation"
             />
+            <p>List your upcoming trips:</p>
+            <p>City:</p>
+            <input type="text" placeholder="City, Country" />
+            <p>Dates:</p>
+            <div className="travel-dates">
+              <p>From</p>
+              <input type="date" /> <p>until</p> <input type="date" />
+            </div>
 
-            {/* <p>Name</p>
-            <input type="text" placeholder="Hello?" /> */}
+            <p>City:</p>
+            <input type="text" placeholder="City, Country" />
+            <p>Dates:</p>
+            <div className="travel-dates">
+              <p>From</p>
+              <input type="date" /> <p>until</p> <input type="date" />
+            </div>
+
+            <p>City:</p>
+            <input type="text" placeholder="City, Country" />
+            <p>Dates:</p>
+            <div className="travel-dates">
+              <p>From</p>
+              <input type="date" /> <p>until</p> <input type="date" />
+            </div>
+
+            <p>City:</p>
+            <input type="text" placeholder="City, Country" />
+            <p>Dates:</p>
+            <div className="travel-dates">
+              <p>From</p>
+              <input type="date" /> <p>until</p> <input type="date" />
+            </div>
           </section>
         </div>
       </div>

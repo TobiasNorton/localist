@@ -402,6 +402,10 @@ footer {
   font-family: 'Lato', sans-serif;
 }
 
+.form-body p {
+  margin: 1.5rem 0 0.5rem 0;
+}
+
 input[type='text'] {
   height: 1.5rem;
   width: 14rem;
@@ -417,6 +421,12 @@ input[type='radio'] {
   width: 1.2rem;
 }
 
+input[type='date'] {
+  height: 1.5rem;
+  width: 14rem;
+  font-size: 1rem;
+}
+
 label {
   margin-right: 2rem;
 }
@@ -424,4 +434,14 @@ label {
 input.big-field {
   width: 30rem;
   height: 4rem;
+}
+
+.travel-dates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.travel-dates input {
+  margin: 0 0.3rem 0 0.3rem;
 }

@@ -167,6 +167,28 @@ button {
 
 /* ---------- Unmatched Profile -------- */
 
+.request-list {
+  width: 16rem;
+  position: absolute;
+  display: block;
+  background-color: white;
+  border: 2px solid hsla(185, 0%, 80%, 1);
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.request-list a {
+  text-align: left;
+  display: block;
+  color: black;
+  margin: 0.2rem 0 0.2rem 0.4rem;
+}
+
+.hidden {
+  display: none;
+}
+
 .their-profile {
   padding-top: 0.5rem;
   display: flex;
@@ -452,7 +474,4 @@ input[type='date'] {
 
 input {
   border: 2px solid hsla(185, 0%, 80%, 1);
-}
-
-::placeholder {
 }

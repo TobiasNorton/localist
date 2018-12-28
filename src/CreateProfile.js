@@ -7,9 +7,7 @@ class CreateProfile extends Component {
         <nav className="nav-bar">
           <p className="logo">Localist</p>
           <div className="links">
-            <a href="#">Requests</a>
-            <a href="#">Browse</a> <a href="#">My Profile</a>
-            <a href="#">Sign Out</a> <a href="#" />
+            <a href="#">Join</a> <a href="#">Log In</a> <a href="#" />
           </div>
         </nav>
 

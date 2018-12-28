@@ -7,9 +7,19 @@ class MatchedProfile extends Component {
         <nav className="nav-bar">
           <p className="logo">Localist</p>
           <div className="links">
-            <a href="#">Requests</a>
-            <a href="#">Browse</a> <a href="#">My Profile</a> <a href="#">Join</a>
-            <a href="#">Log In</a> <a href="#" />
+            <div className="dropdown">
+              <a href="#" className="dropdown-button">
+                Requests (4)
+              </a>
+              <div className="request-list hidden">
+                <a href="#">Michael Kelly</a>
+                <a href="#">Brenna Hensley</a>
+                <a href="#">Francis Begby</a>
+                <a href="#">Anaramhatoywan Mankot</a>
+              </div>
+            </div>
+            <a href="#">Browse</a> <a href="#">My Profile</a>
+            <a href="#">Sign Out</a> <a href="#" />
           </div>
         </nav>
 

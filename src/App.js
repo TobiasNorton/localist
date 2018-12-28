@@ -6,6 +6,7 @@ import MyProfile from './MyProfile'
 import RequestProfile from './RequestProfile'
 import Browse from './Browse'
 import CreateProfile from './CreateProfile'
+import UnmatchedProfile from './UnmatchedProfile'
 
 class App extends Component {
   render() {
@@ -15,8 +16,9 @@ class App extends Component {
         {/* <CreateProfile /> */}
         {/* <Browse /> */}
         {/* <MatchedProfile /> */}
-        <MyProfile />
+        {/* <MyProfile /> */}
         {/* <RequestProfile /> */}
+        <UnmatchedProfile />
       </div>
     )
   }

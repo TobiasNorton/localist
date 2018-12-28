@@ -43,9 +43,7 @@ class RequestProfile extends Component {
 
             <div className="category">
               <p className="header">Contact Me:</p>
-              <p className="body">
-                You must be linked with Michael to see his contact information.
-              </p>
+              <p className="body">You must be linked to see contact information.</p>
               {/* <ul className="body">
                 <li>WhatsApp: +1 5234 3486 324</li>
                 <li>Email: mkelly@something.com</li>

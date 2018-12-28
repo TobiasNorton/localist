@@ -17,23 +17,23 @@ class CreateProfile extends Component {
             <p>Name</p>
             <input type="text" placeholder="Hello?" />
             <p>Age</p>
-            <input type="text" maxlength="3" placeholder="How old are you?" />
+            <input type="text" maxLength="3" placeholder="How old are you?" />
             <p>Gender*</p>
 
             <section className="gender">
               <div>
                 <input type="radio" id="male" name="gender" value="male" />
-                <label for="male">Male</label>
+                <label htmlFor="male">Male</label>
               </div>
 
               <div>
                 <input type="radio" id="female" name="gender" value="female" />
-                <label for="female">Female</label>
+                <label htmlFor="female">Female</label>
               </div>
 
               <div>
                 <input type="radio" id="other" name="gender" value="other" />
-                <label for="other">Other/Prefer not to answer</label>
+                <label htmlFor="other">Other/Prefer not to answer</label>
               </div>
             </section>
 
@@ -61,34 +61,34 @@ class CreateProfile extends Component {
             <p>List your upcoming trips:</p>
             <p>City:</p>
             <input type="text" placeholder="City, Country" />
-            <p>Dates:</p>
+            <p>Travel Dates:</p>
             <div className="travel-dates">
-              <p>From</p>
-              <input type="date" /> <p>until</p> <input type="date" />
+              <label>From</label>
+              <input type="date" /> <label>until</label> <input type="date" />
             </div>
 
             <p>City:</p>
             <input type="text" placeholder="City, Country" />
-            <p>Dates:</p>
+            <p>Travel Dates:</p>
             <div className="travel-dates">
-              <p>From</p>
-              <input type="date" /> <p>until</p> <input type="date" />
+              <label>From</label>
+              <input type="date" /> <label>until</label> <input type="date" />
             </div>
 
             <p>City:</p>
             <input type="text" placeholder="City, Country" />
-            <p>Dates:</p>
+            <p>Travel Dates:</p>
             <div className="travel-dates">
-              <p>From</p>
-              <input type="date" /> <p>until</p> <input type="date" />
+              <label>From</label>
+              <input type="date" /> <label>until</label> <input type="date" />
             </div>
 
             <p>City:</p>
             <input type="text" placeholder="City, Country" />
-            <p>Dates:</p>
+            <p>Travel Dates:</p>
             <div className="travel-dates">
-              <p>From</p>
-              <input type="date" /> <p>until</p> <input type="date" />
+              <label>From</label>
+              <input type="date" /> <label>until</label> <input type="date" />
             </div>
           </section>
         </div>

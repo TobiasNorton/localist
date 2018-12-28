@@ -425,6 +425,7 @@ input[type='date'] {
   height: 1.7rem;
   width: 14rem;
   font-size: 1rem;
+  color: hsla(185, 0%, 47%, 1);
 }
 
 input.big-field {
@@ -447,7 +448,7 @@ input.big-field {
 }
 
 input {
-  border: 2px solid hsla(185, 0%, 85%, 1);
+  border: 2px solid c;
 }
 
 ::placeholder {

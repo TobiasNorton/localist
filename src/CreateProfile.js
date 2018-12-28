@@ -15,9 +15,9 @@ class CreateProfile extends Component {
         <div className="create-profile">
           <form className="form-body">
             <p>Name</p>
-            <input type="text" placeholder="Hello?" />
+            <input type="text" placeholder="Your Name Here" />
             <p>Age</p>
-            <input type="text" maxLength="3" placeholder="How old are you?" />
+            <input type="text" maxLength="3" placeholder="Your Age Here" />
             <p>Gender*</p>
 
             <section className="gender">

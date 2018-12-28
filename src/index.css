@@ -432,9 +432,12 @@ input[type='date'] {
   color: hsla(185, 0%, 47%, 1);
 }
 
-input.big-field {
-  width: 30rem;
-  height: 4rem;
+.big-field {
+  width: 35rem;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  border: 2px solid hsla(185, 0%, 80%, 1);
+  resize: none;
 }
 
 .travel-dates {
@@ -448,7 +451,7 @@ input.big-field {
 }
 
 input {
-  border: 2px solid c;
+  border: 2px solid hsla(185, 0%, 80%, 1);
 }
 
 ::placeholder {

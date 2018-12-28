@@ -410,12 +410,18 @@ input[type='text'] {
 
 .gender {
   display: flex;
+  flex-wrap: wrap;
 }
 
 input[type='radio'] {
-  width: 1.5rem;
+  width: 1.2rem;
 }
 
 label {
   margin-right: 2rem;
+}
+
+input.big-field {
+  width: 30rem;
+  height: 4rem;
 }

@@ -17,7 +17,7 @@ class CreateProfile extends Component {
             <p>Name</p>
             <input type="text" placeholder="Hello?" />
             <p>Age</p>
-            <input type="text" placeholder="Hello?" />
+            <input type="text" maxlength="3" placeholder="How old are you?" />
             <p>Gender*</p>
 
             <section className="gender">
@@ -41,13 +41,24 @@ class CreateProfile extends Component {
               Location <br /> Where do you live?
             </p>
             <input type="text" placeholder="My Hometown, Anywhere" />
+
             <p>
               Tell us about yourself! <br />
               Remember: The more details you provide, the more likely you are to link with others.
             </p>
-            <input type="text" placeholder="Interests, hobbies, background, etc." />
+            <input
+              className="big-field"
+              type="text"
+              placeholder="Interests, hobbies, background, etc."
+            />
+
             <p>Why did you decide to join Localist?</p>
-            <input type="text" placeholder="Hello?" />
+            <input
+              className="big-field"
+              type="text"
+              placeholder="Hidden food gems, good conversation"
+            />
+
             {/* <p>Name</p>
             <input type="text" placeholder="Hello?" /> */}
           </section>

@@ -67,6 +67,20 @@ code {
   color: white;
   margin: 0 1rem 0 1rem;
   font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.hamburger {
+  margin-right: 1rem;
+  display: none;
+}
+
+.hamburger span {
+  width: 40px;
+  height: 6px;
+  background-color: white;
+  display: block;
+  margin: 4px 0 4px 0;
 }
 
 .logo {
@@ -510,3 +524,77 @@ input {
     width: 17rem;
   }
 } */
+
+/* For MyProfile */
+@media only screen and (max-width: 520px) {
+  .category {
+    width: 95vw;
+    margin: 0.3rem 0 0.3rem 0;
+  }
+
+  .link {
+    width: 95vw;
+    margin: 0.3rem 0 0.3rem 0;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  img.profile-pic {
+    width: 85vw;
+  }
+
+  .link button {
+    width: 14rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-bar a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .link button {
+    width: 12rem;
+    /* padding: 0.5rem; */
+    font-size: 0.9rem;
+  }
+
+  .link p {
+    margin: 0 0 0.7rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .link {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link button {
+    width: 10rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .link p {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .mini-pic {
+    width: 6rem;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+}

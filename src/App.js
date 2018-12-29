@@ -13,10 +13,10 @@ class App extends Component {
     return (
       <div>
         {/* <HomePage /> */}
-        <CreateProfile />
+        {/* <CreateProfile /> */}
         {/* <Browse /> */}
         {/* <MatchedProfile /> */}
-        {/* <MyProfile /> */}
+        <MyProfile />
         {/* <RequestProfile /> */}
         {/* <UnmatchedProfile /> */}
       </div>

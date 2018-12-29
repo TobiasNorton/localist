@@ -20,6 +20,11 @@ class MyProfile extends Component {
             </div>
             <a href="#">Browse</a> <a href="#">My Profile</a>
             <a href="#">Sign Out</a> <a href="#" />
+            <div className="hamburger">
+              <span />
+              <span />
+              <span />
+            </div>
           </div>
         </nav>
 

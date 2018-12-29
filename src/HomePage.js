@@ -6,12 +6,18 @@ class HomePage extends Component {
     whatIsLocalistSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
+  showHowItWorksSection = () => {
+    let howItWorksSection = document.querySelector('.how-it-works')
+    howItWorksSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   render() {
     return (
       <body className="body-background">
         <nav className="nav-bar">
           <p className="logo">Localist</p>
           <div className="links">
+            <p onClick={this.showHowItWorksSection}>How Does It Work?</p>
             <a href="#">Join</a> <a href="#">Log In</a> <a href="#" />
           </div>
           <div className="hamburger">

@@ -15,6 +15,7 @@ class HomePage extends Component {
             <span />
           </div>
         </nav>
+
         <section className="main">
           <p className="welcome">
             Welcome to
@@ -24,6 +25,7 @@ class HomePage extends Component {
           <h3 className="main-caption">Meet With Locals, Anywhere in the World.</h3>
           <button>Join the Family</button>
         </section>
+
         <section className="what-is">
           <h1>What is Localist?</h1>
           <div className="box-container">

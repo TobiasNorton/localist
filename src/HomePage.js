@@ -9,6 +9,11 @@ class HomePage extends Component {
           <div className="links">
             <a href="#">Join</a> <a href="#">Log In</a> <a href="#" />
           </div>
+          <div className="hamburger">
+            <span />
+            <span />
+            <span />
+          </div>
         </nav>
         <section className="main">
           <p className="welcome">

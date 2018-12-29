@@ -64,6 +64,11 @@ code {
 
 .nav-bar p {
   padding-left: 1.5rem;
+  margin-right: 1rem;
+}
+
+.nav-bar p:hover {
+  cursor: pointer;
 }
 
 .nav-bar a {

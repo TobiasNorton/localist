@@ -139,7 +139,7 @@ button {
 }
 
 .how-it-works {
-  background-color: hsla(127, 50%, 50%, 1);
+  background-color: hsla(127, 50%, 60%, 1);
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
@@ -155,18 +155,36 @@ button {
   cursor: pointer;
 }
 
-.box-container {
+.what-is .box-container {
   display: flex;
   flex-wrap: wrap;
   min-height: 30rem;
   padding: 0.6rem;
   justify-content: center;
+  padding-bottom: 6rem;
 }
 
-.box {
+.how-it-works .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30rem;
+  padding: 0.6rem;
+  justify-content: center;
+  background-color: hsla(127, 50%, 60%, 1);
+  padding-bottom: 6rem;
+}
+
+.what-is .box {
   width: 20rem;
   min-width: 220px;
   background-color: hsla(127, 50%, 60%, 1);
+  margin: 0.6rem;
+}
+
+.how-it-works .box {
+  width: 20rem;
+  min-width: 220px;
+  background-color: hsla(127, 50%, 50%, 1);
   margin: 0.6rem;
 }
 

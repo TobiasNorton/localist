@@ -71,7 +71,7 @@ class HomePage extends Component {
           </div>
         </section>
         <section className="how-it-works">
-          <h1>How Does It Work?</h1>
+          <h1 onClick={this.showHowItWorksSection}>How Does It Work?</h1>
           <div className="box-container">
             <div className="box">
               <p className="header">Create an Account</p>

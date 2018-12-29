@@ -150,6 +150,11 @@ button {
   font-family: 'Lato', sans-serif;
 }
 
+.what-is h1:hover,
+.how-it-works h1:hover {
+  cursor: pointer;
+}
+
 .box-container {
   display: flex;
   flex-wrap: wrap;

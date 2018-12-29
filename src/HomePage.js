@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 class HomePage extends Component {
+  showWhatIsSection = () => {
+    let whatIsLocalistSection = document.querySelector('.what-is')
+    whatIsLocalistSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   render() {
     return (
       <body className="body-background">
@@ -27,7 +32,7 @@ class HomePage extends Component {
         </section>
 
         <section className="what-is">
-          <h1>What is Localist?</h1>
+          <h1 onClick={this.showWhatIsSection}>What is Localist?</h1>
           <div className="box-container">
             <div className="box">
               <p className="header">Experience Culture</p>

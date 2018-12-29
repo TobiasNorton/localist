@@ -414,6 +414,7 @@ footer {
 .form-body {
   min-height: 100vw;
   max-width: 40rem;
+  margin: 0 3rem 0 3rem;
 }
 
 .form-body p,
@@ -464,12 +465,48 @@ input[type='date'] {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input .travel-dates {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .travel-dates input {
-  margin: 0 0.4rem 0 0.4rem;
+  margin: 0 0.4rem 0.6rem 0.4rem;
 }
 
 input {
   border: 2px solid hsla(185, 0%, 80%, 1);
 }
+
+@media only screen and (max-width: 650px) {
+  .big-field {
+    width: 80vw;
+  }
+}
+
+/* @media only screen and (max-width: 590px) {
+  .big-field {
+    width: 80vw;
+  }
+} */
+
+/* @media only screen and (max-width: 490px) {
+  .big-field {
+    width: 23rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .big-field {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .big-field {
+    width: 17rem;
+  }
+} */

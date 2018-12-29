@@ -12,8 +12,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HomePage />
-        {/* <CreateProfile /> */}
+        {/* <HomePage /> */}
+        <CreateProfile />
         {/* <Browse /> */}
         {/* <MatchedProfile /> */}
         {/* <MyProfile /> */}

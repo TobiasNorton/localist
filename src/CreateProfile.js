@@ -43,10 +43,7 @@ class CreateProfile extends Component {
               <input type="text" placeholder="My Hometown, Anywhere" />
             </div>
             <div className="input">
-              <p>
-                Tell us about yourself! <br />
-                Remember: The more details you provide, the more likely you are to link with others.
-              </p>
+              <p>Tell us about yourself!</p>
               <textarea
                 className="big-field"
                 type="text"
@@ -66,7 +63,7 @@ class CreateProfile extends Component {
             <div className="input">
               <p>List your upcoming trips:</p>
 
-              <div className="input">
+              {/* <div className="input">
                 <p>City:</p>
                 <input type="text" placeholder="City, Country" />
                 <p>Travel Dates:</p>
@@ -80,9 +77,15 @@ class CreateProfile extends Component {
                 <p>City:</p>
                 <input type="text" placeholder="City, Country" />
                 <p>Travel Dates:</p>
+
                 <div className="travel-dates">
                   <label>From</label>
-                  <input type="date" /> <label>until</label> <input type="date" />
+                  <input type="date" />
+                </div>
+
+                <div className="travel-dates">
+                  <label>Until</label>
+                  <input type="date" />
                 </div>
               </div>
 
@@ -94,6 +97,21 @@ class CreateProfile extends Component {
                   <label>From</label>
                   <input type="date" /> <label>until</label> <input type="date" />
                 </div>
+              </div> */}
+
+              <div className="input">
+                <p>City:</p>
+                <input type="text" placeholder="City, Country" />
+                <p>Travel Dates:</p>
+                <div className="travel-dates">
+                  <section className="from-until">
+                    <label>From</label>
+                    <input type="date" />
+                  </section>
+                  <section className="from-until">
+                    <label>Until</label> <input type="date" />
+                  </section>
+                </div>
               </div>
 
               <div className="input">
@@ -101,8 +119,43 @@ class CreateProfile extends Component {
                 <input type="text" placeholder="City, Country" />
                 <p>Travel Dates:</p>
                 <div className="travel-dates">
-                  <label>From</label>
-                  <input type="date" /> <label>until</label> <input type="date" />
+                  <section className="from-until">
+                    <label>From</label>
+                    <input type="date" />
+                  </section>
+                  <section className="from-until">
+                    <label>Until</label> <input type="date" />
+                  </section>
+                </div>
+              </div>
+
+              <div className="input">
+                <p>City:</p>
+                <input type="text" placeholder="City, Country" />
+                <p>Travel Dates:</p>
+                <div className="travel-dates">
+                  <section className="from-until">
+                    <label>From</label>
+                    <input type="date" />
+                  </section>
+                  <section className="from-until">
+                    <label>Until</label> <input type="date" />
+                  </section>
+                </div>
+              </div>
+
+              <div className="input">
+                <p>City:</p>
+                <input type="text" placeholder="City, Country" />
+                <p>Travel Dates:</p>
+                <div className="travel-dates">
+                  <section className="from-until">
+                    <label>From</label>
+                    <input type="date" />
+                  </section>
+                  <section className="from-until">
+                    <label>Until</label> <input type="date" />
+                  </section>
                 </div>
               </div>
 

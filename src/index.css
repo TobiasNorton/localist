@@ -356,6 +356,7 @@ p.from {
 .link-status {
   font-size: 1.2rem;
   font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 .link button {
@@ -401,11 +402,6 @@ footer {
 .local p {
   margin: 0 0 0.5rem 1rem;
   padding: 0;
-  font-family: 'Lato', sans-serif;
-}
-
-.link-status {
-  font-size: 1.2rem;
   font-family: 'Lato', sans-serif;
 }
 

@@ -20,8 +20,31 @@ class MatchedProfile extends Component {
             </div>
             <a href="#">Browse</a> <a href="#">My Profile</a>
             <a href="#">Sign Out</a> <a href="#" />
+            <div className="hamburger">
+              <span />
+              <span />
+              <span />
+            </div>
           </div>
         </nav>
+        {/* <nav className="nav-bar">
+          <p className="logo">Localist</p>
+          <div className="links">
+            <div className="dropdown">
+              <a href="#" className="dropdown-button">
+                Requests (4)
+              </a>
+              <div className="request-list hidden">
+                <a href="#">Michael Kelly</a>
+                <a href="#">Brenna Hensley</a>
+                <a href="#">Francis Begby</a>
+                <a href="#">Anaramhatoywan Mankot</a>
+              </div>
+            </div>
+            <a href="#">Browse</a> <a href="#">My Profile</a>
+            <a href="#">Sign Out</a> <a href="#" />
+          </div>
+        </nav> */}
 
         <section className="their-profile">
           <div className="left">

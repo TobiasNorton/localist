@@ -15,7 +15,7 @@ class MyProfile extends Component {
                 <a href="#">Michael Kelly</a>
                 <a href="#">Brenna Hensley</a>
                 <a href="#">Francis Begby</a>
-                <a href="#">Anaramhatoywan Mankot</a>
+                <a href="#">Budsarin Hiranprueck</a>
               </div>
             </div>
             <a href="#">Browse</a> <a href="#">My Profile</a>

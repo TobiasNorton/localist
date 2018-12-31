@@ -13,7 +13,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <body className="body-background">
+      <body>
         <nav className="nav-bar">
           <p className="logo">Localist</p>
           <div className="links">

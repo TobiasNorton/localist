@@ -307,6 +307,7 @@ button {
 
 .their-profile li {
   font-family: 'Lato', sans-serif;
+  list-style-type: none;
 }
 
 .their-profile button {
@@ -358,6 +359,7 @@ p.from {
 
 .my-profile li {
   font-family: 'Lato', sans-serif;
+  list-style-type: none;
 }
 
 .my-links {

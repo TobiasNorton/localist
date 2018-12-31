@@ -580,6 +580,16 @@ input {
   margin: 0 1rem 0 1rem;
 }
 
+@media only screen and (max-width: 760px) {
+  .account-ready {
+    width: 90vw;
+  }
+
+  .get-started-buttons {
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 650px) {
   .big-field {
     width: 80vw;

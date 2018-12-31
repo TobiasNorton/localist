@@ -259,8 +259,11 @@ button {
 
 .profile-pic {
   width: 24rem;
-  border-radius: 10px;
   display: block;
+  padding: 1rem;
+  border-radius: 5px;
+  /* box-sizing: border-box; */
+  box-shadow: 0px 3px 5px hsla(185, 0%, 80%, 1);
 }
 
 .their-profile .right {
@@ -558,7 +561,10 @@ input {
   }
 
   img.profile-pic {
+    /* width: 85vw; */
     width: 85vw;
+    margin-bottom: 0.5rem;
+    /* box-sizing: border-box; */
   }
 
   .link button {
@@ -577,40 +583,23 @@ input {
 
   .local p {
     text-align: center;
+    margin: 0 0 0.5rem 0;
   }
 
   .mini-pic {
     width: 85vw;
     margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 5px;
+    /* border: 1px solid hsla(185, 0%, 80%, 1); */
+    box-shadow: 0px 3px 5px hsla(185, 0%, 80%, 1);
   }
 
   .local button {
     margin: 0.2rem 0.5rem 0 0.5rem;
   }
 }
-
-/* .local {
-  display: flex;
-  background-color: white;
-  margin: 0.3rem;
-  width: 30rem;
-  border-radius: 5px;
-  padding: 1rem;
-  box-sizing: border-box;
-}
-
-.local p {
-  margin: 0 0 0.5rem 1rem;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
-}
-
-.local button {
-  margin: 0.2rem 0 0 1rem;
-  width: 9rem;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.2rem;
-} */
 
 @media only screen and (max-width: 420px) {
   .link button {

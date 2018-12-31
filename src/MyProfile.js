@@ -89,7 +89,7 @@ class MyProfile extends Component {
 
             <p className="my-links">My Links</p>
 
-            <div className="link">
+            <div className="local">
               <section>
                 <img src="./JeanSebastian.jpeg" className="mini-pic" />
               </section>
@@ -98,10 +98,11 @@ class MyProfile extends Component {
                 <p>Paris, France</p>
                 <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
+                <button>Unlink</button>
               </section>
             </div>
 
-            <div className="link">
+            <div className="local">
               <section>
                 <img src="./Margaux.jpg" className="mini-pic" />
               </section>
@@ -110,10 +111,11 @@ class MyProfile extends Component {
                 <p>Paris, France</p>
                 <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
+                <button>Unlink</button>
               </section>
             </div>
 
-            <div className="link">
+            <div className="local">
               <section>
                 <img src="./Bruno.jpg" className="mini-pic" />
               </section>
@@ -122,10 +124,11 @@ class MyProfile extends Component {
                 <p>Paris, France</p>
                 <p>Available: June 28 - July 4, 2019</p>
                 <button>View Profile</button>
+                <button>Unlink</button>
               </section>
             </div>
 
-            <div className="link">
+            <div className="local">
               <section>
                 <img src="./Sarah.jpg" className="mini-pic" />
               </section>
@@ -134,10 +137,11 @@ class MyProfile extends Component {
                 <p>Paris, France</p>
                 <p>Available: June 18 - July 2, 2019</p>
                 <button>View Profile</button>
+                <button>Unlink</button>
               </section>
             </div>
 
-            <div className="link">
+            <div className="local">
               <section>
                 <img src="./Duanphen.jpeg" className="mini-pic" />
               </section>
@@ -146,10 +150,11 @@ class MyProfile extends Component {
                 <p>Chiang Mai, Thailand</p>
                 <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
+                <button>Unlink</button>
               </section>
             </div>
 
-            <div className="link">
+            <div className="local">
               <section>
                 <img src="./BudsarinCropped.jpg" className="mini-pic" />
               </section>
@@ -158,10 +163,11 @@ class MyProfile extends Component {
                 <p>Chiang Mai, Thailand</p>
                 <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
+                <button>Unlink</button>
               </section>
             </div>
 
-            <div className="link">
+            <div className="local">
               <section>
                 <img src="./Naowarat.jpg" className="mini-pic" />
               </section>
@@ -170,6 +176,7 @@ class MyProfile extends Component {
                 <p>Chiang Mai, Thailand</p>
                 <p>Available: June 18 - July 8, 2019</p>
                 <button>View Profile</button>
+                <button>Unlink</button>
               </section>
             </div>
             <footer />

@@ -304,13 +304,14 @@ button {
 
 .their-profile ul {
   margin: 0.5rem;
-  padding: 0 3rem 0 3rem;
+  padding: 0 1rem 0 1rem;
   font-family: 'Lato', sans-serif;
 }
 
 .their-profile li {
   font-family: 'Lato', sans-serif;
   list-style-type: none;
+  margin-bottom: 0.3rem;
 }
 
 .their-profile button {
@@ -356,13 +357,14 @@ p.from {
 
 .my-profile ul {
   margin: 0.5rem;
-  padding: 0 3rem 0 3rem;
+  padding: 0 1rem 0 1rem;
   font-family: 'Lato', sans-serif;
 }
 
 .my-profile li {
   font-family: 'Lato', sans-serif;
   list-style-type: none;
+  margin-bottom: 0.3rem;
 }
 
 .my-links {
@@ -435,6 +437,13 @@ footer {
   padding: 1rem;
   box-sizing: border-box;
 }
+
+/* inside .local
+.right-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 
 .local p {
   margin: 0 0 0.5rem 1rem;

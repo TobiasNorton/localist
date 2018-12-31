@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import Local from './Local'
+import Local from './Local'
 
 class Browse extends Component {
   render() {
@@ -30,7 +30,8 @@ class Browse extends Component {
         </nav>
 
         <main className="browse-background">
-          {/* <Local /> */}
+          <p>Browse Locals That Are In Your Destinations</p>
+          <Local />
           <div className="local">
             <section>
               <img src="./JeanSebastian.jpeg" className="mini-pic" />
@@ -39,8 +40,10 @@ class Browse extends Component {
               <p>Jean-Sebastian Sirois</p>
               <p>Paris, France</p>
               <p>Available: June 18 - July 8, 2019</p>
-              <button>View Profile</button>
-              <button>Request</button>
+              <div>
+                <button>View Profile</button>
+                <button>Request</button>
+              </div>
             </section>
           </div>
 

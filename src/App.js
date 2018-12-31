@@ -14,8 +14,8 @@ class App extends Component {
       <div>
         {/* <HomePage /> */}
         {/* <CreateProfile /> */}
-        <Browse />
-        {/* <MatchedProfile /> */}
+        {/* <Browse /> */}
+        <MatchedProfile />
         <MyProfile />
         {/* <RequestProfile /> */}
         {/* <UnmatchedProfile /> */}

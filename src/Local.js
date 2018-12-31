@@ -8,12 +8,14 @@ class Local extends Component {
           <section>
             <img src="./JeanSebastian.jpeg" className="mini-pic" />
           </section>
-          <section>
+          <section className="right-half">
             <p>Jean-Sebastian Sirois</p>
             <p>Paris, France</p>
             <p>Available: June 18 - July 8, 2019</p>
-            <button>View Profile</button>
-            <button>Request</button>
+            <div>
+              <button>View Profile</button>
+              <button>Request</button>
+            </div>
           </section>
         </div>
       </div>

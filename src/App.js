@@ -7,16 +7,18 @@ import RequestProfile from './RequestProfile'
 import Browse from './Browse'
 import CreateProfile from './CreateProfile'
 import UnmatchedProfile from './UnmatchedProfile'
+import AllSet from './AllSet'
 
 class App extends Component {
   render() {
     return (
       <div>
         {/* <HomePage /> */}
+        <AllSet />
         {/* <CreateProfile /> */}
         {/* <Browse /> */}
-        <MatchedProfile />
-        <MyProfile />
+        {/* <MatchedProfile /> */}
+        {/* <MyProfile /> */}
         {/* <RequestProfile /> */}
         {/* <UnmatchedProfile /> */}
       </div>

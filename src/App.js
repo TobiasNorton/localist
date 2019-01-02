@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <HomePage /> */}
-        <AllSet />
+        <HomePage />
+        {/* <AllSet /> */}
         {/* <CreateProfile /> */}
         {/* <Browse /> */}
         {/* <MatchedProfile /> */}

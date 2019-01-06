@@ -212,6 +212,11 @@ button {
   font-family: 'Lato', sans-serif;
 }
 
+.box img {
+  max-width: 18rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
 /* ---------- Unmatched Profile -------- */
 
 .request-list {

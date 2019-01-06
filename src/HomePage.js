@@ -41,6 +41,7 @@ class HomePage extends Component {
           <h1 onClick={this.showWhatIsSection}>What is Localist?</h1>
           <div className="box-container">
             <div className="box">
+              <img src="./Waterfall.jpg" />
               <p className="header">Experience Culture</p>
               <p className="body">
                 Localist provides a unique platform to meet with locals anywhere on the planet so
@@ -51,6 +52,7 @@ class HomePage extends Component {
               </p>
             </div>
             <div className="box">
+              <img src="./meetpeoplesolotravel.jpeg" />
               <p className="header">Locals Can Hang Out With Travelers</p>
               <p className="body">
                 Show off your town! Remember, those from other countries don't have the same context
@@ -61,15 +63,18 @@ class HomePage extends Component {
               </p>
             </div>
             <div className="box">
+              <img src="./GroupSitting.jpeg" />
               <p className="header">What Localist is Not</p>
               <p className="body">
                 Localist is not a dating website or a platform for couch sharing, but hey, it's a
                 free world! If you should choose to use it for such purposes, more power to you. We
-                just want Localists on both sides to have the best cultural experience they can.
+                just want Localists on both sides to have the best cultural experience they can, and
+                know that the level of commitment is completely up to you and other Localists.
               </p>
             </div>
           </div>
         </section>
+
         <section className="how-it-works">
           <h1 onClick={this.showHowItWorksSection}>How Does It Work?</h1>
           <div className="box-container">

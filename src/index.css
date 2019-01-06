@@ -354,7 +354,7 @@ button {
 }
 
 p.from {
-  padding: 1rem;
+  padding: 1rem 0 0.5rem 0;
   margin: 5px;
   font-family: 'Lato', sans-serif;
 }
@@ -539,6 +539,11 @@ input[type='date'] {
 
 input {
   border: 2px solid hsla(185, 0%, 80%, 1);
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 5px;
 }
 
 /* ------------ You're All Set -------------*/

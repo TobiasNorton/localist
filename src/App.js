@@ -14,13 +14,13 @@ class App extends Component {
     return (
       <div>
         <HomePage />
-        {/* <AllSet /> */}
-        {/* <CreateProfile /> */}
-        {/* <Browse /> */}
-        {/* <MatchedProfile /> */}
-        {/* <MyProfile /> */}
-        {/* <RequestProfile /> */}
-        {/* <UnmatchedProfile /> */}
+        <CreateProfile />
+        <AllSet />
+        <MyProfile />
+        <Browse />
+        <UnmatchedProfile />
+        <MatchedProfile />
+        <RequestProfile />
       </div>
     )
   }

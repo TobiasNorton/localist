@@ -29,16 +29,18 @@ class UnmatchedProfile extends Component {
               <h3 className="profile-name">Budsarin Hiranprueck</h3>
               <img src="./BudsarinCropped.jpg" className="profile-pic" alt="Budsarin" />
               <p className="from">Chiang Mai, Thailand</p>
-            </div>
-
-            <div className="category">
-              <p className="header">Languages I Speak:</p>
-              <p className="body">Thai, English, Ngaw, some Spanish</p>
+              <p className="link-status">You are not linked with Budsarin Hiranprueck</p>
+              <button>Send Request</button>
             </div>
 
             <div className="category">
               <p className="header">Contact Me:</p>
               <p className="body">You must be linked to see contact information.</p>
+            </div>
+
+            <div className="category">
+              <p className="header">Languages I Speak:</p>
+              <p className="body">Thai, English, Ngaw, some Spanish</p>
             </div>
           </div>
 
@@ -68,8 +70,8 @@ class UnmatchedProfile extends Component {
               <p className="body">June 18 - July 8, 2019</p>
             </div>
 
-            <p className="link-status">You are not linked with Budsarin Hiranprueck</p>
-            <button>Send Request</button>
+            {/* <p className="link-status">You are not linked with Budsarin Hiranprueck</p>
+            <button>Send Request</button> */}
           </div>
         </section>
         <footer />

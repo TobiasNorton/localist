@@ -52,11 +52,8 @@ class MatchedProfile extends Component {
               <h3 className="profile-name">Budsarin Hiranprueck</h3>
               <img src="./BudsarinCropped.jpg" className="profile-pic" alt="Budsarin" />
               <p className="from">Chiang Mai, Thailand</p>
-            </div>
-
-            <div className="category">
-              <p className="header">Languages I Speak:</p>
-              <p className="body">Thai, English, Ngaw, some Spanish</p>
+              <p className="link-status">You are linked with Budsarin Hiranprueck</p>
+              <button>Unlink</button>
             </div>
 
             <div className="category">
@@ -67,6 +64,11 @@ class MatchedProfile extends Component {
                 <li>Facebook Messenger: Budsarin Hueranprueck</li>
                 <li>Instagram: @b.huer88</li>
               </ul>
+            </div>
+
+            <div className="category">
+              <p className="header">Languages I Speak:</p>
+              <p className="body">Thai, English, Ngaw, some Spanish</p>
             </div>
           </div>
 
@@ -96,8 +98,8 @@ class MatchedProfile extends Component {
               <p className="body">June 18 - July 8, 2019</p>
             </div>
 
-            <p className="link-status">You are linked with Budsarin Hiranprueck</p>
-            <button>Unlink</button>
+            {/* <p className="link-status">You are linked with Budsarin Hiranprueck</p>
+            <button>Unlink</button> */}
           </div>
         </section>
         <footer />

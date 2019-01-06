@@ -37,11 +37,6 @@ class RequestProfile extends Component {
             </div>
 
             <div className="category">
-              <p className="header">Languages I Speak:</p>
-              <p className="body">English</p>
-            </div>
-
-            <div className="category">
               <p className="header">Contact Me:</p>
               <p className="body">You must be linked to see contact information.</p>
               {/* <ul className="body">
@@ -50,6 +45,11 @@ class RequestProfile extends Component {
                 <li>Facebook Messenger: Michael Kelly</li>
                 <li>Instagram: @mike.like.mike</li>
               </ul> */}
+            </div>
+
+            <div className="category">
+              <p className="header">Languages I Speak:</p>
+              <p className="body">English</p>
             </div>
           </div>
 

@@ -320,6 +320,7 @@ button {
 .their-profile button {
   margin: 0.5rem;
   font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 /* ------------- MyProfile --------------- */
@@ -600,9 +601,13 @@ input {
 }
 
 @media only screen and (max-width: 550px) {
-  .nav-bar a {
+  .links {
     display: none;
   }
+
+  /* .nav-bar a {
+    display: none;
+  } */
 
   .hamburger {
     display: block;

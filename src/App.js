@@ -19,9 +19,9 @@ class App extends Component {
         {/* <AllSet /> */}
         {/* <MyProfile /> */}
         {/* <Browse /> */}
-        {/* <UnmatchedProfile />
+        <UnmatchedProfile />
         <MatchedProfile />
-        <RequestProfile /> */}
+        <RequestProfile />
         <TheirProfile />
       </div>
     )

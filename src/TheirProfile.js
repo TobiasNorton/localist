@@ -51,6 +51,7 @@ class MatchedProfile extends Component {
 
             <div className="category">
               <p className="header">Languages I Speak:</p>
+              <hr />
               <p className="body">Thai, English, Ngaw, some Spanish</p>
             </div>
           </div>

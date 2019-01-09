@@ -48,7 +48,7 @@ class HomePage extends Component {
                 that travelers can get a richer experience and see their travel destinations up
                 close and personal. Find the best street food, the local music scene, the best
                 views, the hidden gems that only the locals would know about. Localist seeks to help
-                you get a richer cultural experience.
+                you find a richer cultural experience.
               </p>
             </div>
             <div className="box">

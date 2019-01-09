@@ -220,6 +220,14 @@ button {
 
 /* ---------- Unmatched Profile -------- */
 
+.category .line {
+  background-color: grey;
+  height: 1px;
+  width: 4rem;
+  margin: 0.5rem;
+  padding: 0;
+}
+
 .request-list {
   width: 16rem;
   position: absolute;

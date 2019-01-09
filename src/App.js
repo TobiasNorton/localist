@@ -17,7 +17,7 @@ class App extends Component {
         <HomePage />
         {/* <CreateProfile /> */}
         {/* <AllSet /> */}
-        {/* <MyProfile /> */}
+        <MyProfile />
         {/* <Browse /> */}
         <UnmatchedProfile />
         <MatchedProfile />

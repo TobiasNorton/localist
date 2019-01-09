@@ -50,15 +50,16 @@ class MatchedProfile extends Component {
             </div>
 
             <div className="category">
-              <p className="header">Languages I Speak:</p>
-              <hr />
+              <p className="header">Languages I Speak</p>
+              <div className="line" />
               <p className="body">Thai, English, Ngaw, some Spanish</p>
             </div>
           </div>
 
           <div className="right">
             <div className="category">
-              <p className="header">Contact Me:</p>
+              <p className="header">Contact Me</p>
+              <div className="line" />
               <ul className="body">
                 <li>WhatsApp: +1 5234 3486 324</li>
                 <li>Email: budsar1234@something.com</li>
@@ -73,7 +74,8 @@ class MatchedProfile extends Component {
             </div> */}
 
             <div className="category">
-              <p className="header">About Me:</p>
+              <p className="header">About Me</p>
+              <div className="line" />
               <p className="body">
                 Hi, I'm Budsarin! I've lived in Chiang Mai for 10 years. I like to bacon ipsum dolor
                 amet spare ribs landjaeger filet mignon, frankfurter porchetta salami tenderloin.
@@ -84,7 +86,8 @@ class MatchedProfile extends Component {
               </p>
             </div>
             <div className="category">
-              <p className="header">Why I Joined Localist:</p>
+              <p className="header">Why I Joined Localist</p>
+              <div className="line" />
               <p className="body">
                 Landjaeger fatback kevin shankle, porchetta chicken jowl bresaola sirloin cupim
                 flank kielbasa beef doner. Kevin pastrami porchetta meatball swine brisket short
@@ -93,7 +96,8 @@ class MatchedProfile extends Component {
               </p>
             </div>
             <div className="category">
-              <p className="header">Available:</p>
+              <p className="header">Available</p>
+              <div className="line" />
               <p className="body">June 18 - July 8, 2019</p>
             </div>
 

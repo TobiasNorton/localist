@@ -37,7 +37,8 @@ class RequestProfile extends Component {
             </div>
 
             <div className="category">
-              <p className="header">Contact Me:</p>
+              <p className="header">Contact Me</p>
+              <div className="line" />
               <p className="body">You must be linked to see contact information.</p>
               {/* <ul className="body">
                 <li>WhatsApp: +1 5234 3486 324</li>
@@ -48,14 +49,16 @@ class RequestProfile extends Component {
             </div>
 
             <div className="category">
-              <p className="header">Languages I Speak:</p>
+              <p className="header">Languages I Speak</p>
+              <div className="line" />
               <p className="body">English</p>
             </div>
           </div>
 
           <div className="right">
             <div className="category">
-              <p className="header">About Me:</p>
+              <p className="header">About Me</p>
+              <div className="line" />
               <p className="body">
                 I am a lover of the outdoors, beer and good food. I love to travel and I porchetta
                 salami tenderloin. Hamburger porchetta frankfurter meatball picanha. Kielbasa pork
@@ -65,7 +68,8 @@ class RequestProfile extends Component {
               </p>
             </div>
             <div className="category">
-              <p className="header">Why I Joined Localist:</p>
+              <p className="header">Why I Joined Localist</p>
+              <div className="line" />
               <p className="body">
                 Landjaeger fatback kevin shankle, porchetta chicken jowl bresaola sirloin cupim
                 flank kielbasa beef doner. Kevin pastrami porchetta meatball swine brisket short
@@ -74,7 +78,8 @@ class RequestProfile extends Component {
               </p>
             </div>
             <div className="category">
-              <p className="header">Coming to St. Petersburg, FL:</p>
+              <p className="header">Coming to St. Petersburg, FL</p>
+              <div className="line" />
               <p className="body">March 28 - April 6, 2019</p>
             </div>
           </div>

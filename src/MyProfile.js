@@ -37,12 +37,14 @@ class MyProfile extends Component {
             </div>
 
             <div className="category">
-              <p className="header">Languages I Speak:</p>
+              <p className="header">Languages I Speak</p>
+              <div className="line" />
               <p className="body">English, some Spanish</p>
             </div>
 
             <div className="category">
-              <p className="header">Preferred Contact Information:</p>
+              <p className="header">Preferred Contact Information</p>
+              <div className="line" />
               <ul className="body">
                 <li>WhatsApp: +1 5234 3486 324</li>
                 <li>Email: tobynorton1234@something.com</li>
@@ -52,7 +54,8 @@ class MyProfile extends Component {
             </div>
 
             <div className="category">
-              <p className="header">About Me:</p>
+              <p className="header">About Me</p>
+              <div className="line" />
               <p className="body">
                 Hi, I'm Toby! I've lived in St. Petersburg, Florida for about 2 years. I like to
                 bacon ipsum dolor amet spare ribs landjaeger filet mignon, frankfurter porchetta
@@ -64,7 +67,8 @@ class MyProfile extends Component {
             </div>
 
             <div className="category">
-              <p className="header">Why I Joined Localist:</p>
+              <p className="header">Why I Joined Localist</p>
+              <div className="line" />
               <p className="body">
                 Landjaeger fatback kevin shankle, porchetta chicken jowl bresaola sirloin cupim
                 flank kielbasa beef doner. Kevin pastrami porchetta meatball swine brisket short
@@ -76,7 +80,8 @@ class MyProfile extends Component {
 
           <div className="right">
             <div className="category">
-              <p className="header">My Upcoming Trips:</p>
+              <p className="header">My Upcoming Trips</p>
+              <div className="line" />
               <ul>
                 <li>Paris, France</li>
                 <li>June 18 - July 8, 2019</li>
@@ -88,6 +93,7 @@ class MyProfile extends Component {
             </div>
 
             <p className="my-links">My Links</p>
+            <div className="line" />
 
             <div className="local">
               <section>
